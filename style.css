@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+
+}
+
+.profile-pic {
+    border-radius: 1000px;
+    height: 200px;
+    overflow: hidden;
+    width: 300px;
+    background-image: url(./a8.jfif);
+    background-size: cover;
+    background-position: top;
+    display: inline-block;
+}
+
+#user-name {
+    color: chartreuse;
+    font-family: colonna MT;
+    font-size: 45px;
+    font-weight: 480;
+    text-transform: uppercase;
+    text-decoration: underline chartreuse;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightgrey;
+    color: rgb(38, 38, 38);
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.qabox{
+    display: flex;
+    width: 100px;
+    align-items: center;
+}
+
+.heading-tertiary{
+    flex: 1 0 30%;
+    text-align: right;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+.value {
+    flex: 0 0 70%;
+    text-align: left;
+}
